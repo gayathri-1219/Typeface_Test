@@ -1,4 +1,3 @@
-# your code goes here
 d={"bfpv":"1","cgjkqsxz":"2","dt":"3","l":"4","mn":"5","r":"6","aeiouhwy":"."}
 def codegeneration(s):
 	global d
@@ -22,3 +21,11 @@ l = list(map(str,input().split()))       #input list of combinations of phonetic
 for i in l:
 	if codegeneration(i)==k:
 		print(i)
+		
+#input:
+#Murthy
+#Moorthi Murthi Moorthi Mothy Muoothi
+#Output:
+#Moorthi
+#Murthi
+#Moorthi
